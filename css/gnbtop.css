@@ -1,0 +1,75 @@
+body {
+  padding-top: 144px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  z-index: 150;
+}
+header div.gnbtop {
+  
+  border-bottom: 1px solid lightgray;
+}
+header div.gnbtop div.wrap {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div.gnbtop div.wrap h1 {
+  
+}
+header div.gnbtop div.wrap h1 a {
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  width: 200px;
+  height: 35px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header div.gnbtop div.wrap form {
+  
+  border: 2px solid gray;
+  display: flex;
+}
+header div.gnbtop div.wrap form input {
+  
+  height: 35px;
+  width: 350px;
+  border: none;
+  background-color: transparent;
+}
+header div.gnbtop div.wrap form button.search {
+  
+  border: none;
+  background-color: transparent;
+  font-size: 0;
+  width: 35px;
+  height: 35px;
+  background-image: url(../img/search.svg);
+  background-size: cover;
+  cursor: pointer;
+}
+header div.gnbtop div.wrap div.membership {
+  
+  display: flex;
+  font-size: 14px;
+}
+header div.gnbtop div.wrap div.membership a {
+  
+}
+header div.gnbtop div.wrap div.membership a.login {
+  color: #026c8a;
+}
+header div.gnbtop div.wrap div.membership a.join {
+  
+  color: gray;
+}
+header div.gnbtop div.wrap div.membership a.join::before {
+  content: "·";
+  padding: 0 5px;
+}

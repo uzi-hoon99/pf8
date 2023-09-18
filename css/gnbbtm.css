@@ -1,0 +1,92 @@
+div.gnbbtm {
+  position: relative;
+  background-color: white;
+}
+div.gnbbtm::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  top: 54px;
+  left: 0;
+}
+div.gnbbtm div.wrap {
+  
+}
+div.gnbbtm div.wrap ul.gnblist {
+  display: flex;
+}
+div.gnbbtm div.wrap ul.gnblist > li {
+  width: calc(100% / 5);
+  text-align: center;
+}
+div.gnbbtm div.wrap ul.gnblist > li > a {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.25s;
+  line-height: 3;
+}
+div.gnbbtm div.wrap ul.gnblist > li:hover > a {
+  color: #026c8a;
+}
+div.gnbbtm div.wrap ul.gnblist > li > a > span {
+  position: relative;
+}
+div.gnbbtm div.wrap ul.gnblist > li > a > span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #026c8a;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.25s;
+}
+div.gnbbtm div.wrap ul.gnblist > li:hover > a > span::after {
+  width: 100%;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  height: 250px;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem li {
+  display: flex;
+  justify-content: center;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem li a {
+  line-height: 1.5;
+  padding: 5px 10px;
+  position: relative;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem li a span {
+  position: relative;
+  color: gray;
+  transition: all 0.75s;
+  z-index: 3;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem li:hover a span {
+  color: white;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(13,127,96,1) 8%, rgba(13,127,160,1) 91%);
+  transition: all 0.5s;
+  display: block;
+}
+div.gnbbtm div.wrap ul.gnblist li ul.gnbitem li a:hover::after {
+  width: 100%;
+}

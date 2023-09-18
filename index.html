@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(UZI)이젠IT컴퓨터아카데미</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css ">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/gnbtop.css">
+    <link rel="stylesheet" href="css/gnbbtm.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/foot.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("div.gnbbtm div.wrap ul.gnblist li ul.gnbitem").hide();
+            $("div.gnbbtm div.wrap ul.gnblist > li").mouseenter(function(){
+                $("div.gnbbtm div.wrap ul.gnblist li ul.gnbitem").slideDown(250);
+            });
+            $("header div.gnbtop").mouseenter(function(){
+                $("div.gnbbtm div.wrap ul.gnblist li ul.gnbitem").slideUp(250);
+            });
+            $("section").mouseenter(function(){
+                $("div.gnbbtm div.wrap ul.gnblist li ul.gnbitem").slideUp(250);
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="gnbtop padding25">
+            <div class="wrap">
+                <h1>
+                    <a href="">EZEN</a>
+                </h1>
+                <form action="">
+                    <input type="text">
+                    <button class="search">검색</button>
+                </form>
+                <div class="membership">
+                    <a href="" class="login">로그인</a>
+                    <a href="" class="join">회원가입</a>
+                </div>
+            </div>
+        </div>
+        <div class="gnbbtm">
+            <div class="wrap">
+                <ul class="gnblist">
+                    <li>
+                        <a href="">
+                            <span>교육원 소개</span>
+                        </a>
+                        <ul class="gnbitem">
+                            <li>
+                                <a href="">
+                                    <span>교육기관 소개</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>인사말</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>연혁</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>찾아오시는 길</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>교육안내</span>
+                        </a>
+                        <ul class="gnbitem">
+                            <li>
+                                <a href="">
+                                    <span>고용보험 환급제도</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>국민내일배움카드</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>훈련과정</span>
+                        </a>
+                        <ul class="gnbitem">
+                            <li>
+                                <a href="">
+                                    <span>훈련일정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>전체훈련과정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>원격훈련과정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>집체훈련과정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>혼합훈련과정</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>고객지원센터</span>
+                        </a>
+                        <ul class="gnbitem">
+                            <li>
+                                <a href="">
+                                    <span>공지사항</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>자료실</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>FAQ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>1:1문의</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>취업상담 신청</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>원격지원서비스</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>마이페이지</span>
+                        </a>
+                        <ul class="gnbitem">
+                            <li>
+                                <a href="">
+                                    <span>나의 홈</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>관심과정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>교재배송현황</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>나의 설문</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>나의 문의내역</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="title">
+            <div class="wrap">
+                <div class="menubox">
+                    <ul class="titlecon">
+                        <li><a href="">나의 홈</a></li>
+                        <li><a href="">관심과정</a></li>
+                        <li><a href="">나의 문의</a></li>
+                        <li><a href="">수료증 발급</a></li>
+                    </ul>
+                    <div class="family">
+                        <p>Family Site</p>
+                        <a href="">EZEN</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="notice">
+            <div class="wrap padding50">
+                <div class="notice1">
+                    <h2>공지사항</h2>
+                    <a href="" class="moreview">더보기</a>
+                    <ul>
+                        <li>
+                            <a href="" class="noticeitem">[시스템 점검 공지] KT CDN 서비스 보안 강화 작업 - 2023.06.20.(화)</a>
+                            <p class="date">2023-06-16</p>
+                        </li>
+                        <li>
+                            <a href="" class="noticeitem">혼합훈련(원격훈련) 설문조사 안내</a>
+                            <p class="date">2023-04-25</p>
+                        </li>
+                        <li>
+                            <a href="" class="noticeitem">[온라인평생교육원] 직업능력개발훈련 혼합훈련 모바일 OTP 대체인증방식 변경 안내</a>
+                            <p class="date">2022-10-31</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="notice2">
+                    <h2>고객센터</h2>
+                    <div class="customer">
+                        <img src="img/customer.png" alt="customericon">
+                        <div class="cuspbox">
+                            <p class="cusnumber">031-751-3688</p>
+                            <p class="cusmail">dodream7688@hanmail.net</p>
+                            <p class="custime">평일 09:00~22:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="intro">
+            <div class="wrap padding50">
+                <h2>과정 유형 소개</h2>
+                <ul class="introbox">
+                    <li>
+                        <a href="">
+                            <img src="img/intro1.png" alt="intro1">
+                            <h3>원격훈련과정</h3>
+                            <p>인터넷, 유선망, 웹 기술을 활용하여 학습자가 가정이나 학교 등 인터넷에 접속할 수 있는 장소에 있으면서 사이버 공간을 통해 학습을 진행할 수 있는 과정</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/intro2.png" alt="intro2">
+                            <h3>집체훈련과정</h3>
+                            <p>전통적인 수업 방법으로 강의실 또는 실습장소와 같은 주어진 장소에 학습자들이 모여 교수의 강의를 듣거나, 토론, 협력학습 등을 진행하는 과정</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/intro3.png" alt="intro3">
+                            <h3>혼합훈련과정</h3>
+                            <p>집체훈련과 비대면(untact) 원격훈련(원격보조훈련, 쌍방향훈련)이 혼합된 형태의 훈련으로 유연하고 창의적인 직업훈련을 진행할 수 있는 과정</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="foot">
+            <div class="wrap padding25">
+                <div class="foota">
+                    <a href="">서비스 이용약관</a>
+                    <a href="">개인정보처리방침</a>
+                    <a href="">이메일무단수집거부</a>
+                </div>
+                <div class="hotline">
+                    <p>HOTLINE</p>
+                    <p>031-751-3688</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
+        </section>
+    </footer>
+    </footer>
+</body>
+</html>

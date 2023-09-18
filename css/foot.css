@@ -1,0 +1,64 @@
+section#foot {
+  
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+section#foot div.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section#foot div.wrap div.foota {
+  
+  display: flex;
+}
+section#foot div.wrap div.foota a {
+  
+  padding: 0 10px;
+}
+section#foot div.wrap div.foota a:nth-child(2) {
+  
+  position: relative;
+  color: #026c8a;
+}
+section#foot div.wrap div.foota a:nth-child(2)::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 16px;
+  width: 1px;
+  background-color: lightgray;
+}
+section#foot div.wrap div.foota a:nth-child(2)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 16px;
+  width: 1px;
+  background-color: lightgray;
+}
+section#foot div.wrap div.hotline {
+  display: flex;
+  align-items: center;
+}
+section#foot div.wrap div.hotline::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/call.svg);
+  background-size: contain;
+}
+section#foot div.wrap div.hotline p {
+  font-size: 14px;
+}
+section#foot div.wrap div.hotline p:nth-child(2) {
+  font-size: 25px;
+  font-weight: 700;
+  color: #026c8a;
+  margin-left: 15px;
+}

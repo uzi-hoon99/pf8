@@ -1,0 +1,131 @@
+section#notice {
+  
+}
+section#notice div.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+section#notice div.wrap > div {
+  width: 45%;
+}
+section#notice div.wrap div.notice1 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 75px auto;
+}
+section#notice div.wrap div.notice1 h2 {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+section#notice div.wrap div.notice1 a.moreview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  margin: 15px 0 15px 20px;
+  color: gray;
+}
+section#notice div.wrap div.notice1 a.moreview::after{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/add.svg);
+  background-size: cover;
+  margin-left: 10px;
+}
+section#notice div.wrap div.notice1 ul {
+  grid-column: 1 /span 2;
+  display: flex;
+  flex-direction: column;
+}
+section#notice div.wrap div.notice1 ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+section#notice div.wrap div.notice1 ul li:nth-child(1) {
+  border-top: 1px solid;
+  border-bottom: 1px solid lightgray;
+}
+section#notice div.wrap div.notice1 ul li:nth-child(3) {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+section#notice div.wrap div.notice1 ul li a.noticeitem {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 75%;
+  font-weight: 500;
+  position: relative;
+  line-height: 2;
+  transition: all 0.5s;
+}
+section#notice div.wrap div.notice1 ul li:hover a.noticeitem {
+  color: #0d7fa0;
+}
+section#notice div.wrap div.notice1 ul li a.noticeitem::after {
+  content: "";
+  display: block;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  transition: all 0.5s;
+  background-color: #0d7fa0;
+  width: 0;
+  height: 1px;
+}
+section#notice div.wrap div.notice1 ul li:hover a.noticeitem::after {
+  width: 100%;
+  left: 0;
+}
+section#notice div.wrap div.notice1 ul li p.date {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+section#notice div.wrap div.notice2 {
+  
+}
+section#notice div.wrap div.notice2 h2 {
+  
+  font-size: 25px;
+  font-weight: 700;
+  padding: 25px 0;
+}
+section#notice div.wrap div.notice2 div.customer {
+  
+  display: flex;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  padding: 50px;
+  border-top: 1px solid black;
+  justify-content: space-between;
+}
+section#notice div.wrap div.notice2 div.customer img {
+  
+}
+section#notice div.wrap div.notice2 div.customer div.cuspbox {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section#notice div.wrap div.notice2 div.customer div.cuspbox p.cusnumber {
+  
+  font-size: 45px;
+  font-weight: 700;
+  color: #026c8a;
+}
+section#notice div.wrap div.notice2 div.customer div.cuspbox p.cusmail {
+  
+  color: #0d7fa0;
+}
+section#notice div.wrap div.notice2 div.customer div.cuspbox p.custime {
+  
+  color: gray;
+}

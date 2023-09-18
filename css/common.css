@@ -1,0 +1,51 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hide{
+    display: none;
+}
+
+.padding25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.padding50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.padding100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.paddingT50{
+    padding-top: 50px;
+}
+
+.paddingT100{
+    padding-top: 100px;
+}
+
+.paddingB50{
+    padding-bottom: 50px;
+}
+
+.paddingB100{
+    padding-bottom: 100px;
+}
+
+#portfolio p {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px 0;
+}

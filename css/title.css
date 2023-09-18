@@ -1,0 +1,82 @@
+section#title {
+  background-image: url(../img/title.png);
+  height: 650px;
+  background-color: lightgray;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+section#title div.wrap {
+  
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 75px;
+}
+section#title div.wrap div.menubox {
+  
+  display: flex;
+}
+section#title div.wrap div.menubox ul.titlecon {
+  display: flex;
+  background: linear-gradient(90deg, rgba(13,127,96,1) 8%, rgba(13,127,160,1) 91%);
+  width: 45%;
+  justify-content: flex-end;
+}
+section#title div.wrap div.menubox ul.titlecon li {
+  
+}
+section#title div.wrap div.menubox ul.titlecon li a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  row-gap: 10px;
+  transition: all 0.5s;
+}
+section#title div.wrap div.menubox ul.titlecon li a:hover {
+  background-color: #026c8a;
+}
+section#title div.wrap div.menubox ul.titlecon li a::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+section#title div.wrap div.menubox ul.titlecon li:nth-child(1) a::before {
+  background-image: url(../img/home.svg)
+}
+section#title div.wrap div.menubox ul.titlecon li:nth-child(2) a::before {
+  background-image: url(../img/heart.svg)
+}
+section#title div.wrap div.menubox ul.titlecon li:nth-child(3) a::before {
+  background-image: url(../img/help.svg)
+}
+section#title div.wrap div.menubox ul.titlecon li:nth-child(4) a::before {
+  background-image: url(../img/contract.svg)
+}
+section#title div.wrap div.menubox div.family {
+  background-color: #026c8a;
+  color: white;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+section#title div.wrap div.menubox div.family p {
+  padding-left: 15px;
+}
+section#title div.wrap div.menubox div.family a {
+  background-image: url(../img/wlogo.png);
+  width: 100%;
+  display: block;
+  height: 75%;
+  font-size: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
